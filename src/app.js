@@ -55,5 +55,7 @@ window.onload = function() {
     cardContainer.appendChild(cardElement);
   }
 
+  document.getElementById("btnCard").onclick = generateCard;
+
   generateCard();
 };

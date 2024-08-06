@@ -39,6 +39,7 @@ body {
   bottom: 10px;
   right: 10px;
   font-size: 1em;
+  transform: rotate(3.142rad);
 }
 .red {
   color: red;
@@ -46,4 +47,10 @@ body {
 
 .black {
   color: black;
+}
+#btnCard {
+  margin: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
 }
